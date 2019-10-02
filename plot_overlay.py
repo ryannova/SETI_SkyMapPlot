@@ -33,6 +33,7 @@ IMAGE_OUTPUT = "images/"
 COLOR_MAP = "Wistia"
 IMAGE = "skymap_source.png"
 FITS_FILES = ["data_time.fits", "data_time_gaussian.fits", "data_nobs.fits", "data_nobs_gaussian.fits"]
+plt.rcParams.update({'font.size': 22})
 
 map_array = []
 for filename in FITS_FILES:
